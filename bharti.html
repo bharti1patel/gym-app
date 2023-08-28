@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharti Fitnes</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset*/
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url(https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_1280.jpg);
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline block;
+        color: white;
+
+    }
+
+    .left img {
+        width: 60px;
+        padding: 9px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 39%;
+        margin: 20px auto;
+        color: white;
+
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline block;
+        color: white;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 19px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: rgb(49, 23, 23);
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .btn:hover {
+        background-color: rgb(190, 169, 169);
+
+    }
+
+    .container {
+        color: white;
+        margin: 100px 0px;
+        padding: 80px;
+        width: 500px;
+        position: absolute;
+        right: 1px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 5px;
+        border: 2px solid white;
+        margin: 10px auto;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 420px;
+        margin: 10px auto;
+        border: 2px solid rgb(119, 98, 98);
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://png.pngtree.com/png-vector/20191023/ourmid/pngtree-physical-fitness-sport-gym-logo-bodybuilder-with-big-muscles-posing-isolated-png-image_1857715.jpg"
+                alt="">
+            <div>Bharti Fitnes</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gendar">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
